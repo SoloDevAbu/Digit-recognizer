@@ -19,7 +19,7 @@ PREDICT = True
 IMAGESAVE = False
 
 # Load your new character model
-MODEL = load_model('/home/abu/Desktop/ml/digit-recognisation/emnist_model.h5')
+MODEL = load_model('path/to/ml/model/character_model.h5')
 
 # Create labels dictionary for letters A-Z
 LABELS = {i: chr(65 + i) for i in range(26)}  # 0 -> 'A', 1 -> 'B', ..., 25 -> 'Z'
