@@ -10,7 +10,7 @@ from keras.models import load_model
 # -----------------------------
 # Config
 # -----------------------------
-WIDTH, HEIGHT = 300, 300
+WIDTH, HEIGHT = 640, 480
 WHITE, BLACK, RED = (255,255,255), (0,0,0), (255,0,0)
 SYMBOL_LABELS = {0: '+', 1: '-', 2: '*', 3: '/', 4: '='}
 MODEL_PATH = '/home/abu/Desktop/ml/digit-recognisation/symbol_model-v1.h5'
